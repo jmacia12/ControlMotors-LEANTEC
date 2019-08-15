@@ -62,7 +62,7 @@ void ControlMotor::CalcularVelocidad(int velocidad, int giro, int *vel_izq, int 
         *vel_der=velocidad;// Como el giro es para la izquierda si la variable es menor que 0, el motor derecho va a la vecodidad m�xima que le marquemos
         *vel_izq=(giro*velocidad)/100; // Hacemos una regla de tres, pasando el valor de giro a positivo y calculamos, si 255(m�xima velocidad) es el 100%(del giro), "variable giro" ser� X
       }
-    }º
+    }
     
 }
 
